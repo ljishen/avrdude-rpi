@@ -15,8 +15,9 @@ def reset():
   pin = 22
   GPIO.setup(pin, GPIO.OUT)
   GPIO.output(pin, GPIO.HIGH)
-  time.sleep(0.12)
+  time.sleep(0.01)
   GPIO.output(pin, GPIO.LOW)
+  time.sleep(0.01)
 
 def process():
   while True:
