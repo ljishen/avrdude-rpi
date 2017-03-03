@@ -22,3 +22,8 @@ autoreset where we do "pin = 22" and change the 22 to your gpio pin number.
 
 Now when you run avrdude from anywhere (including via arduino's normal UI) it will flag dtr when
 it is about to upload hex data.
+
+Updates:
+-------------
+
+Enable uploading sketches using Makefile [Arduino-Makefile](https://github.com/sudar/Arduino-Makefile)
